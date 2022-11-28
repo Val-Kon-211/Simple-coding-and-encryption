@@ -1,0 +1,8 @@
+Task 1. Checking the integrity of the contents of the directory.
+
+Calculate the hash sum of files (for each file separately) in a given directory, bypassing all subdirectories.
+Save this information for further integrity checking.
+Check the integrity of the directory with an indication of the changed files.
+Algorithm for calculating the HASH sum. The file is read as a binary stream.
+The stream is split into 16-bit segments, which are added by XOR.
+If there are not enough bits up to 16 in the last segment, the missing bits are padded with zeros.
