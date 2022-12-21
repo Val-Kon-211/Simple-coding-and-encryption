@@ -1,0 +1,14 @@
+Directory encryption.
+Write a directory encryption program that uses the following algorithm:
+1) encryption:
+a) the directory for encryption is specified to the program
+b) the program is given a key
+c) the program collapses the directory into an encrypted file
+d) the program deletes the directory (it is possible in the usual way, without overwriting the body)
+2) decryption:
+a) the directory for decryption is specified to the program
+b) the program is given a key
+c) the program expands the encrypted file into a directory
+d) the program deletes the file
+The Vigenere encryption algorithm is used.
+You cannot use the standard functions for folding a directory into a file, such as the built-in zip functions.
